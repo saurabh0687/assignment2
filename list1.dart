@@ -1,6 +1,6 @@
 void main()
 {  int sum=0;
   var lis=[1,2,3,4,5,6,7];
-  lis.forEach((element) {sum=sum+element;});
-  print(sum);
+  print(lis.reduce((sum,element)=>sum+element));
+  
 }
